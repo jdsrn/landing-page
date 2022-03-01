@@ -74,8 +74,68 @@ button {
     padding: 10px;
 }
 
-img {
+/* Style header image apart from images in next section */
+.header-image {
     height: 120px;
     width: 350px;
-    border: solid purple 2px;
+}
+
+/* 
+Vertically center information header.
+Display images and corresponding subtexts in a row.
+*/
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    padding-bottom: 40px;
+}
+
+.content-image {
+    width: 100px;
+    height: 100px;
+}
+
+.section {
+    display: flex;
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    color: black;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.quote {
+    display: flex;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    width: 500px;
+}
+
+.source {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
 }
