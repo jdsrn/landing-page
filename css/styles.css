@@ -1,0 +1,81 @@
+/*
+Distribute space between header logo and links. Style links.
+Add gaps between each link.
+Vertically center the header.
+Wrap header main and secondary text. Make text and button sit in block style, and align them to the left of the header image.
+Add appropriate padding in the header.
+*/
+.header {
+    background-color: #1F2937;
+    padding: 5px 50px 100px 100px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a:link {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.header-main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.header-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 3px 20px;
+    font-weight: bold;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+}
+
+.media.flipped {
+    flex-direction: row-reverse;
+}
+
+.media .content {
+    flex: 1;
+    padding: 10px;
+}
+
+img {
+    height: 120px;
+    width: 350px;
+    border: solid purple 2px;
+}
