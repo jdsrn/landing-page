@@ -139,3 +139,29 @@ Display images and corresponding subtexts in a row.
     justify-content: flex-end;
     width: 500px;
 }
+
+/*
+Vertically and horizontally center call to action section.
+Content and button are displayed in rows.
+*/
+
+.action-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 50px 100px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px 50px 100px 100px;
+}
